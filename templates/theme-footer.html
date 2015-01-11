@@ -8,19 +8,49 @@
   <footer>
     <div class="colophon">
       <nav class="nav-colophon">
-        <ol>
-          <li><a href="${reverse('tos')}">Terms of Service</a></li>
-          <li><a href="${reverse('tos')}#privacy">Privacy Policy</a></li>
-          <li><a href="${reverse('tos')}#honor">Honor Code</a></li>
-          <li><a href="${reverse('tos')}#copyright">Copyright</a></li>
-          <li><a href="${reverse('about_edx')}#careers">Careers</a></li>
-          <li><a href="${reverse('about_edx')}#contact">Contact</a></li>
-          <li><a href="${marketing_link('FAQ')}">Help</a></li>
-        </ol>
+      <ol>
+          <li class="nav-colophon-01">
+            <a id="about" href="/about">Sobre Campus</a>
+          </li>
+          <li class="nav-colophon-04">
+            <a id="faq" href="/faq">El Equipo</a>
+          </li>
+          <li class="nav-colophon-05">
+            <a id="contact" href="/contact">Contacto</a>
+          </li>
+      </ol>
       </nav>
+
+      <div class="wrapper-logo">
+        <p>
+          <a href="/"><img alt="Campus" src="static/themes/campus/images/campus-logo.png" height="25"></a>
+        </p>
+      </div>
+
+      <p class="copyright">© 2015 Campus, derechos reservados</p>
+
+      <nav class="nav-legal">
+          <ul>
+            <li class="nav-legal-01">
+              <a href="/tos">Términos de servicio</a> and <a href="/honor">Código de Honor</a>
+            </li>
+            <li class="nav-legal-02">
+              <a href="/privacy">Política de Privacidad</a>
+            </li>
+          </ul>
+        </nav>
     </div>
-    <div class="references">
-      <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
+
+    <div class="powered-by">
+      <p>
+        <a href="http://openedx.org/">
+          <img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag-dark.png" width="150" height="50" alt="Powered by Open edX" />
+        </a>
+      </p>
     </div>
+
   </footer>
 </div>
+
+
+

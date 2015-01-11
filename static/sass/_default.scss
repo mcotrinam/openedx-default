@@ -31,7 +31,7 @@ $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
 $gray-3: #e9e9e9; //Block/Course BG Color
 $gray-2: #f2f2f2;
-$gray-1: #fbfbfb; //Main BG Color
+$gray-1: #ffffff; //Main BG Color
 $white: $gray-1;
 
 $black: #2e2e2e;
@@ -43,7 +43,7 @@ $black-80: #585858;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Source Sans';
+$theme-sans-font: 'Open Sans';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
 
@@ -205,4 +205,21 @@ $footer_margin: ($baseline/4) 0;
 @mixin footer_references_style {
     margin: 0 !important;
     text-align: right;
+}
+
+/// -------------- CAMPUS -----------
+header {
+	background-color: #ffffff !important;
+}
+
+.wrapper-footer footer {
+	font-size: 12px;
+}
+
+.wrapper-footer {
+	background: #ffffff;
+}
+
+.outer-wrapper{
+	font-size: 14px;
 }
