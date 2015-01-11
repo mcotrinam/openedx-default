@@ -1,10 +1,8 @@
 <%! from django.utils.translation import ugettext as _ %>
-
+<%! from microsite_configuration import microsite %>
 <%! from django.core.urlresolvers import reverse %>
 <%inherit file="main.html" />
 <%namespace name='static' file='static_content.html'/>
-
-<%! from microsite_configuration import microsite %>
 
 <%
   homepage_overlay_html = microsite.get_value('homepage_overlay_html')
@@ -19,7 +17,7 @@
 
 <section class="home">
   <header>
-    <div class="outer-wrapper" style="background-image: url({static.url('static/themes/campus/images/studying.jpg')});">
+    <div class="outer-wrapper" style="background-image: url('static/themes/campus/images/studying.jpg');">
       <div class="title">
         <hgroup>
           % if homepage_overlay_html:
