@@ -209,7 +209,11 @@ $footer_margin: ($baseline/4) 0;
 
 /// -------------- CAMPUS -----------
 body{
-    font-size: 
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #4e4e4e;
 }
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub {
@@ -300,7 +304,7 @@ header.global a:hover{
 }
 
 .info-campus i{
-    font-size:10px;
+    font-size: 10px;
     color: #b2b2b2;
 }
 
