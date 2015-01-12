@@ -10,8 +10,8 @@
 //-----------------
 
 //Main Color Variables
-$main-color: #f7691f;
-$dark-color: #ea281f; //Link Color
+$main-color: #f7931d;
+$dark-color: #9e9e9e; //Link Color
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
@@ -208,9 +208,37 @@ $footer_margin: ($baseline/4) 0;
 }
 
 /// -------------- CAMPUS -----------
+body{
+    font-size: 
+}
+
+.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub {
+    font-size: 18px;
+    margin-left: 40px;
+    text-transform: lowercase;
+    color: #585858;
+}
+
 header {
 	background-color: #ffffff !important;
     border-bottom: 1px solid #c4c5c7;
+}
+
+header.global {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+header.global a:hover{
+    color: #f7931d;
+}
+
+.outer-wrapper{
+    font-size: 14px;
+    height: 461px;
+    max-width: 1400px;
+}
+.home>header .outer-wrapper {
+    max-width: 1400px;
 }
 
 .wrapper-footer footer {
@@ -220,17 +248,27 @@ header {
 .wrapper-footer {
 	background: #f5f5f5;
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0.1);
-    border-top: 0px solid #c4c5c7;
+    border-top: 1px solid #ededed;
 }
 
-.outer-wrapper{
-	font-size: 14px;
-    height: 461px;
-    max-width: 1400px;
+.wrapper-footer footer .wrapper-logo {
+    margin: 20px 0 4px 0;
+}
+
+.wrapper-footer footer a {
+    color: #b2b2b2;
+}
+
+.wrapper-footer footer a:hover {
+    color: #b2b2b2;
 }
 
 .wrapper-footer footer .copyright {
     font-size: 11px;
+}
+
+.wrapper-footer footer .nav-legal {
+    text-align: center;
 }
 
 .wrapper-footer footer .nav-legal li {
@@ -245,6 +283,10 @@ header {
     color: #949494;
 }
 
+.wrapper-footer footer .colophon .nav-colophon li a:hover {
+    color: #f7931d;
+}
+
 .home>header {
     border-bottom: 1px solid #c4c5c7;
 }
@@ -255,6 +297,15 @@ header {
 
 .highlighted-courses .courses .course, .find-courses .courses .course {
     border: 1px solid #c4c5c7;
+}
+
+.info-campus i{
+    font-size:10px;
+    color: #b2b2b2;
+}
+
+textarea, input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    border: 1px solid #c6c6c6;
 }
 
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
@@ -268,8 +319,9 @@ header {
 
 .row-social {
   margin: 0.5em 0;
-  float: left;
+  float: right;
   clear: both;
+  font-size: 14px;
 }
 .row-social i {
   cursor: pointer;
