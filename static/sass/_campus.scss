@@ -303,9 +303,36 @@ header.global a:hover{
     border: 1px solid #c4c5c7;
 }
 
-.info-campus i{
-    font-size: 10px;
+.info-campus{
+    font-size: 12px;
     color: #b2b2b2;
+    line-height: 16px;
+    clear: both;
+}
+
+.info-campus i{
+    font-size: 12px;
+    color: #b2b2b2;
+}
+
+.nav-legal{
+    clear: both;
+}
+
+.home>header .media {
+    border: 1px solid #c4c5c7;
+}
+
+.highlighted-courses .courses .course:hover, .find-courses .courses .course:hover {
+    border: 1px solid #f7931d;
+}
+.highlighted-courses .courses .course header.course-preview hgroup h2:hover, .find-courses .courses .course header.course-preview hgroup h2:hover {
+    color: #f7931d;
+}
+
+.highlighted-courses .courses .course header.course-preview .info-link:hover, .find-courses .courses .course header.course-preview .info-link:hover {
+    color: #f7931d;
+    opacity: 1;
 }
 
 textarea, input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
