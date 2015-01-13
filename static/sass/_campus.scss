@@ -11,13 +11,13 @@
 
 //Main Color Variables
 $main-color: #f7931d;
-$dark-color: #9e9e9e; //Link Color
+$dark-color: #126f9a; //Link Color 9e9e9e
 $light-color: #f4e00c; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $bg-color: #f7fe81; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Main BG Color Variables
 $main-bg: #822537;
-$main-bg-60: lighten($main-bg, 18.5%); //Main Border/HR Color
+$main-bg-60: #ccc; //Main Border/HR Color
 $main-bg-25: lighten($main-bg, 25%); 
 
 //Secondary Color Variables
@@ -245,6 +245,10 @@ header.global a:hover{
     max-width: 1400px;
 }
 
+.content-wrapper a{
+  color: #126f9a;
+}
+
 .wrapper-footer footer {
 	font-size: 12px;
 }
@@ -313,10 +317,13 @@ header.global a:hover{
 .info-campus i{
     font-size: 12px;
     color: #b2b2b2;
+    line-height: 20px;
 }
 
 .nav-legal{
     clear: both;
+    font-size: 11px;
+    color: #b2b2b2;
 }
 
 .home>header .media {
@@ -337,6 +344,12 @@ header.global a:hover{
 
 textarea, input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
     border: 1px solid #c6c6c6;
+}
+
+.login aside .cta-login .cta-login-action, .register aside .cta-login .cta-login-action, .passwordreset aside .cta-login .cta-login-action, #forgot-password-modal #password-reset aside .cta-login .cta-login-action {
+  padding: 2px 15px;
+  margin-left: 70px;
+  margin-top: 20px;
 }
 
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
