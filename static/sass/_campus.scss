@@ -257,6 +257,7 @@ header.global a:hover{
 	background: #f5f5f5;
     box-shadow: 0 0px 0px 0 rgba(0,0,0,0.1);
     border-top: 1px solid #ededed;
+    font-weight: 300;
 }
 
 .wrapper-footer footer .wrapper-logo {
@@ -265,6 +266,7 @@ header.global a:hover{
 
 .wrapper-footer footer a {
     color: #b2b2b2;
+    font-weight: 300;
 }
 
 .wrapper-footer footer a:hover {
@@ -273,6 +275,7 @@ header.global a:hover{
 
 .wrapper-footer footer .copyright {
     font-size: 11px;
+
 }
 
 .wrapper-footer footer .nav-legal {
@@ -289,6 +292,7 @@ header.global a:hover{
 
 .wrapper-footer footer .colophon .nav-colophon li a {
     color: #949494;
+    font-weight: 300;
 }
 
 .wrapper-footer footer .colophon .nav-colophon li a:hover {
@@ -353,6 +357,10 @@ textarea, input[type="text"], input[type="email"], input[type="password"], input
   margin-top: 20px;
 }
 
+header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware {
+  color: #ffffff;
+}
+
 .title-campus-super{
   text-transform: initial !important;
   font-size: 26px;
@@ -368,6 +376,29 @@ textarea, input[type="text"], input[type="email"], input[type="password"], input
 .socios-campus{
   border-top: 1px solid #c4c5c7;
   display: block;
+}
+
+.dashboard .my-courses .course .info .enter-course {
+  color: #ffffff;
+}
+
+.course-info header.course-profile {
+  background-image: url('http://www.campus.org.pe/static/themes/campus/images/campus-bg-1.jpg');
+  height: 420px;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.register {
+  font-size: 12px;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register{
+  color: #ffffff;
+}
+
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong {
+  color: #fff;
+  padding: 7px 0px;
+  font-size: 12px;
 }
 
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
