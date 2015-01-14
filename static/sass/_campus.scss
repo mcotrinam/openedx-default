@@ -333,14 +333,15 @@ header.global a:hover{
 .highlighted-courses .courses .course:hover, .find-courses .courses .course:hover {
     border: 1px solid #f7931d;
 }
-.highlighted-courses .courses .course header.course-preview hgroup h2:hover, .find-courses .courses .course header.course-preview hgroup h2:hover {
-    color: #f7931d;
-}
 
-.highlighted-courses .courses .course header.course-preview .info-link:hover, .find-courses .courses .course header.course-preview .info-link:hover {
-    color: #f7931d;
-    opacity: 1;
-}
+//.highlighted-courses .courses .course header.course-preview hgroup h2:hover, .find-courses .courses .course header.course-preview hgroup h2:hover {
+//    color: #f7931d;
+//}
+
+//.highlighted-courses .courses .course header.course-preview .info-link:hover, .find-courses .courses .course header.course-preview .info-link:hover {
+//    color: #f7931d;
+//   opacity: 1;
+//}
 
 textarea, input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
     border: 1px solid #c6c6c6;
