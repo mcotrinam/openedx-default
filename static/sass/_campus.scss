@@ -353,6 +353,16 @@ textarea, input[type="text"], input[type="email"], input[type="password"], input
   margin-top: 20px;
 }
 
+.title-campus-super{
+  text-transform: initial !important;
+  text-align: center;
+}
+
+.socios-campus{
+  border-top: 1px solid #c4c5c7;
+  display: block;
+}
+
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
 
 @import url(http://www.markmurray.co/codepen/entypostyle.css);
