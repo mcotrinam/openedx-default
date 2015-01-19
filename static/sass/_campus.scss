@@ -401,6 +401,14 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   font-size: 12px;
 }
 
+.modal.home-page-video-modal .inner-wrapper, .home-page-video-modal.leanModal_box .inner-wrapper {
+  padding: 0px;
+}
+
+.home>header .media .hero {
+  background: url("http://www.campus.org.pe/static/themes/campus/images/mini-video-homepage.jpg") center no-repeat;
+}
+
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
 
 @import url(http://www.markmurray.co/codepen/entypostyle.css);
