@@ -1,18 +1,35 @@
 <%! from django.utils.translation import ugettext as _ %>
 <%inherit file="../main.html" />
 
-<%block name="pagetitle">${_("About")}</%block>
+<%block name="pagetitle">Acerca de Campus </%block>
 
 <section class="container about">
-	<section id="campus">
+	<section id="campus" style="height: 500px;">
 		<span class="title-campus-super" style="margin-bottom: 10px; font-size: 30px;">Campus</span>
-		<span class="title-campus-sub" style="text-align: center; margin-bottom: 30px;">La primera plataforma que brinda cursos en línea, gratuitos y masivos</span>
+		<span class="title-campus-sub" style="text-align: center; margin-bottom: 30px;">La primera plataforma que brinda cursos en línea, gratuitos y masivos en el Perú</span>
 		<center>
 			<iframe width="640" height="360" src="//www.youtube.com/embed/4uqGS9Zl1JA" frameborder="0" allowfullscreen></iframe>
 		</center>
 	</section>
-	<section id="equipo">
+	<section id="equipo" style="padding-top: 50px">
 		<span class="title-campus-super" style="margin-bottom: 10px;">El equipo</span>
 		<span class="title-campus-sub" style="text-align: center; margin-bottom: 30px;">Conócenos un poco más</span>
+		<div>
+			<div class="team-member">
+				<div class="img-team-member" style="background: url('http://www.campus.org.pe/static/themes/campus/images/miguel-cotrina-campus.jpg');"></div>
+				<span class="title-campus-super2" style="margin-bottom: 10px;">Miguel Cotrina</span>
+				<span class="title-campus-sub2" style="text-align: center; margin-bottom: 30px;">CEO & Project Manager</span>
+			</div>
+			<div class="team-member">
+				<div class="img-team-member" style="background: url('http://www.campus.org.pe/static/themes/campus/images/pilar-cusma-campus.jpg');"></div>
+				<span class="title-campus-super2" style="margin-bottom: 10px;">Pilar Cusma</span>
+				<span class="title-campus-sub2" style="text-align: center; margin-bottom: 30px;">CFO - Directora de Finanzas</span>
+			</div>
+			<div class="team-member">
+				<div class="img-team-member" style="background: url('http://www.campus.org.pe/static/themes/campus/images/david-paredes-campus.jpg');"></div>
+				<span class="title-campus-super2" style="margin-bottom: 10px;">David Paredes</span>
+				<span class="title-campus-sub2" style="text-align: center; margin-bottom: 30px;">CTO - Director de Tecnología</span>
+			</div>
+		</div>
 	</section>
 </section>

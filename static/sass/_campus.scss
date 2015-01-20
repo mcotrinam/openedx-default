@@ -361,18 +361,6 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   color: #ffffff;
 }
 
-.title-campus-super{
-  text-transform: initial !important;
-  font-size: 26px;
-  line-height: 26.64px;
-  color: #126f9a;
-  text-align: center;
-  display: block;
-  font-weight: 300;
-  font-family: "Open Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
-  margin-top: 25px;
-}
-
 .socios-campus{
   border-top: 1px solid #c4c5c7;
   display: block;
@@ -410,6 +398,18 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   background-size: 200px 110px;
 }
 
+.title-campus-super{
+  text-transform: initial !important;
+  font-size: 26px;
+  line-height: 26.64px;
+  color: #126f9a;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+  font-family: "Open Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+  margin-top: 25px;
+}
+
 .title-campus-sub{
   text-transform: initial !important;
   font-size: 18px;
@@ -420,6 +420,45 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   font-weight: 300;
   font-family: "Open Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
   margin-bottom: 15px;
+}
+
+.title-campus-super2{
+  text-transform: initial !important;
+  font-size: 20px;
+  line-height: 20px;
+  color: #126f9a;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+  font-family: "Open Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+  margin-top: 10px;
+}
+
+.title-campus-sub2{
+  text-transform: initial !important;
+  font-size: 14px;
+  line-height: 20px;
+  color: #585858;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+  font-family: "Open Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+  margin-bottom: 15px;
+}
+
+.team-member{
+  float: left;
+  width: 250px;
+}
+
+.img-team-member{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-repeat: no-repeat;
+  border: 8px solid #b2b2b2;
 }
 
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
