@@ -410,6 +410,18 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   background-size: 200px 110px;
 }
 
+.title-campus-sub{
+  text-transform: initial !important;
+  font-size: 18px;
+  line-height: 26.64px;
+  color: #585858;
+  text-align: center;
+  display: block;
+  font-weight: 300;
+  font-family: "Open Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+  margin-bottom: 15px;
+}
+
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
 
 @import url(http://www.markmurray.co/codepen/entypostyle.css);
