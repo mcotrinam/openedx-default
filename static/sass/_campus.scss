@@ -431,7 +431,7 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   display: block;
   font-weight: 300;
   font-family: "Open Sans","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .title-campus-sub2{
@@ -448,17 +448,20 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
 
 .team-member{
   float: left;
-  width: 250px;
+  width: 300px;
+  text-align: center;
 }
 
 .img-team-member{
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   background-repeat: no-repeat;
-  border: 8px solid #b2b2b2;
+  border: 5px solid #E4E4E4;
+  background-size: 200px 200px;
+  margin: 0px 45px;
 }
 
 /// -------------- CAMPUS SOCIAL NETWORKS-----------
