@@ -489,7 +489,7 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   padding: 0px 2px;
   background: transparent;
   color: #4e4e4e !important;
-  font-family: 'entypo';
+  font-family: 'entypo' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -503,7 +503,7 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
 }
 
 .contact-social a:hover{
-  color: #f7931d;
+  color: #f7931d !important;
   text-decoration: none !important;
 }
 
@@ -521,17 +521,17 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   text-decoration: none;
-  font-family: 'entypo';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+  font-family: 'entypo' !important;
+  speak: none !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  line-height: 1 !important;
 
   /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 }
 
 .row-social:nth-child(1) {
