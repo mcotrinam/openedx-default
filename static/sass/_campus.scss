@@ -548,8 +548,8 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
 }
 .row-social:nth-child(1) a:hover {
   top: -2px !important;
-  border-radius: 50% !important;
-  color: white !important;
+  border-radius: 50%;
+  color: white;
 }
 .row-social:nth-child(1) a:not(:first-child) {
   margin-left: 5px;
