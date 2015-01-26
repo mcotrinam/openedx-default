@@ -544,7 +544,7 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   border-radius: 50% !important;
   padding: 0.5em !important;
   position: relative !important;
-  background: transparent !important;
+  background: transparent;
 }
 .row-social:nth-child(1) a:hover {
   top: -2px !important;
