@@ -535,7 +535,7 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
 }
 
 .row-social:nth-child(1) {
-  background: transparent !important;
+  background: transparent;
 }
 
 .row-social:nth-child(1) a {
@@ -551,6 +551,8 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   border: 2px solid !important;
   border-radius: 50% !important;
   color: white !important;
+  padding: 0.5em !important;
+  position: relative !important;
 }
 .row-social:nth-child(1) a:not(:first-child) {
   margin-left: 5px;
