@@ -483,18 +483,17 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   box-sizing: border-box;
 }
 
-.contact-social a{
-  color: #4e4e4e;
-}
 
-.contact-social i{
+.contact-social a{
   cursor: pointer;
   padding: 0px 2px;
   background: transparent;
+  color: #4e4e4e;
 }
 
-.contact-social i:hover{
+.contact-social a:hover{
   color: #f7931d;
+  text-decoration: none;
 }
 
 .row-social {
@@ -503,20 +502,21 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   clear: both;
   font-size: 14px;
 }
-.row-social i {
+.row-social a {
   cursor: pointer;
   display: inline-block;
   -moz-transition: all 0.15s ease;
   -o-transition: all 0.15s ease;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
+  text-decoration: none;
 }
 
 .row-social:nth-child(1) {
   background: transparent;
 }
 
-.row-social:nth-child(1) a i {
+.row-social:nth-child(1) a {
   color: #34495e;
   border: 2px solid;
   border-radius: 50%;
@@ -524,46 +524,46 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   position: relative;
   background: transparent;
 }
-.row-social:nth-child(1) a i:hover {
+.row-social:nth-child(1) a:hover {
   top: -2px;
   border-radius: 50%;
   color: white !important;
 }
-.row-social:nth-child(1) a i:not(:first-child) {
+.row-social:nth-child(1) a:not(:first-child) {
   margin-left: 10px;
 }
-.row-social:nth-child(1) a i:nth-child(1) {
+.row-social:nth-child(1) a:nth-child(1) {
   color: #3b5998;
   border-color: #3b5998;
 }
-.row-social:nth-child(1) a i:nth-child(2) {
+.row-social:nth-child(1) a:nth-child(2) {
   color: #00a0d1;
   border-color: #00a0d1;
 }
-.row-social:nth-child(1) a i:nth-child(3) {
+.row-social:nth-child(1) a:nth-child(3) {
   color: #db4a39;
   border-color: #db4a39;
 }
-.row-social:nth-child(1) a i:nth-child(4) {
+.row-social:nth-child(1) a:nth-child(4) {
   color: #1c87bd;
   border-color: #1c87bd;
 }
-.row-social:nth-child(1) a i:nth-child(5) {
+.row-social:nth-child(1) a:nth-child(5) {
   color: #ea4c89;
   border-color: #ea4c89;
 }
-.row-social:nth-child(1) a i:nth-child(1):hover {
+.row-social:nth-child(1) a:nth-child(1):hover {
   background: #3b5998;
 }
-.row-social:nth-child(1) a i:nth-child(2):hover {
+.row-social:nth-child(1) a:nth-child(2):hover {
   background: #00a0d1;
 }
-.row-social:nth-child(1) a i:nth-child(3):hover {
+.row-social:nth-child(1) a:nth-child(3):hover {
   background: #db4a39;
 }
-.row-social:nth-child(1) a i:nth-child(4):hover {
+.row-social:nth-child(1) a:nth-child(4):hover {
   background: #1c87bd;
 }
-.row-social:nth-child(1) a i:nth-child(5):hover {
+.row-social:nth-child(1) a:nth-child(5):hover {
   background: #ea4c89;
 }
