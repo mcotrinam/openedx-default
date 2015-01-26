@@ -483,6 +483,10 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   box-sizing: border-box;
 }
 
+.contact-social a{
+  color: #4e4e4e;
+}
+
 .contact-social i{
   cursor: pointer;
   padding: 0px 2px;
@@ -512,7 +516,7 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   background: transparent;
 }
 
-.row-social:nth-child(1) i {
+.row-social:nth-child(1) a i {
   color: #34495e;
   border: 2px solid;
   border-radius: 50%;
@@ -520,46 +524,46 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   position: relative;
   background: transparent;
 }
-.row-social:nth-child(1) i:hover {
+.row-social:nth-child(1) a i:hover {
   top: -2px;
   border-radius: 50%;
   color: white !important;
 }
-.row-social:nth-child(1) i:not(:first-child) {
+.row-social:nth-child(1) a i:not(:first-child) {
   margin-left: 10px;
 }
-.row-social:nth-child(1) i:nth-child(1) {
+.row-social:nth-child(1) a i:nth-child(1) {
   color: #3b5998;
   border-color: #3b5998;
 }
-.row-social:nth-child(1) i:nth-child(2) {
+.row-social:nth-child(1) a i:nth-child(2) {
   color: #00a0d1;
   border-color: #00a0d1;
 }
-.row-social:nth-child(1) i:nth-child(3) {
+.row-social:nth-child(1) a i:nth-child(3) {
   color: #db4a39;
   border-color: #db4a39;
 }
-.row-social:nth-child(1) i:nth-child(4) {
+.row-social:nth-child(1) a i:nth-child(4) {
   color: #1c87bd;
   border-color: #1c87bd;
 }
-.row-social:nth-child(1) i:nth-child(5) {
+.row-social:nth-child(1) a i:nth-child(5) {
   color: #ea4c89;
   border-color: #ea4c89;
 }
-.row-social:nth-child(1) i:nth-child(1):hover {
+.row-social:nth-child(1) a i:nth-child(1):hover {
   background: #3b5998;
 }
-.row-social:nth-child(1) i:nth-child(2):hover {
+.row-social:nth-child(1) a i:nth-child(2):hover {
   background: #00a0d1;
 }
-.row-social:nth-child(1) i:nth-child(3):hover {
+.row-social:nth-child(1) a i:nth-child(3):hover {
   background: #db4a39;
 }
-.row-social:nth-child(1) i:nth-child(4):hover {
+.row-social:nth-child(1) a i:nth-child(4):hover {
   background: #1c87bd;
 }
-.row-social:nth-child(1) i:nth-child(5):hover {
+.row-social:nth-child(1) a i:nth-child(5):hover {
   background: #ea4c89;
 }
