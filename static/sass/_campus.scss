@@ -488,12 +488,23 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   cursor: pointer;
   padding: 0px 2px;
   background: transparent;
-  color: #4e4e4e;
+  color: #4e4e4e !important;
+  font-family: 'entypo';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .contact-social a:hover{
   color: #f7931d;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .row-social {
@@ -510,6 +521,17 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
   text-decoration: none;
+  font-family: 'entypo';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .row-social:nth-child(1) {
@@ -530,7 +552,7 @@ header.global .nav-courseware li .cta, header.global .nav-courseware div .cta, .
   color: white !important;
 }
 .row-social:nth-child(1) a:not(:first-child) {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .row-social:nth-child(1) a:nth-child(1) {
   color: #3b5998;
